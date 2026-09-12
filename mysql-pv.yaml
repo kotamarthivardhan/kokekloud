@@ -9,4 +9,9 @@ spec:
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
+  storageClassName: manual
+  hostPath:
+    path: /mnt/data/mysql
+  
+
   

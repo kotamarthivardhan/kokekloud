@@ -3,5 +3,5 @@ kind: Secret
 metadata:
   name: mysql-db-url
 type: Opaque
-strringData:
-  database: kodekloud_db5
+stringData:
+  database: kodekloud_db4
