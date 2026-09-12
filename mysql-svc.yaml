@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  type: Nodeport
+  selector:
+    app: mysql
+  ports:
+  - port: 30007
+    targetPort: 30007

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-user-pass
+type: Opaque
+strringData:
+  username: kodekloud_joy
+  password: 8FmzjvFU6S
